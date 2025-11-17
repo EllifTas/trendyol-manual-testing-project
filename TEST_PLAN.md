@@ -2,7 +2,7 @@
 
 ## 🎯 Objective
 To demonstrate manual testing skills and apply fundamental QA processes.
-
+ 
 ## 📋 Test Scope
 - Login Functionality
 - Product Search and Filtering  
