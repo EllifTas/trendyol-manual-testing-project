@@ -1,46 +1,79 @@
-Test Plan – Trendyol Web Application
+✅ TEST PLAN — Trendyol Web Application
 Version: 1.0
 Author: Elif Taş
 Date: November 2025
 
-1. Introduction
-This Test Plan defines the scope, approach, resources, and schedule of testing activities for Trendyol’s web application.
-The objective is to ensure the quality and stability of core user journeys such as login, product search, product details, and shopping cart operations.
+# 🇬🇧 1. Introduction
+This Test Plan outlines the testing scope, approach, environment, and deliverables for Trendyol’s web application.
+The goal is to validate the quality and stability of core user workflows, including login, product search, product display, and shopping cart operations.
+# 🇹🇷 1. Giriş
+Bu Test Planı, Trendyol web uygulaması için test kapsamını, yaklaşımını, test ortamını ve teslimatları tanımlar.
+Amaç; giriş, ürün arama, ürün detay görüntüleme ve alışveriş sepeti işlemleri gibi temel kullanıcı akışlarının kalite ve stabilitesini doğrulamaktır.
 
-2. Scope of Testing
-In-Scope
-Login functionality
-Product search, filtering, and product detail pages
-Shopping cart operations (add/remove/update items)
-Checkout redirection (mock environment)
-Basic UI and navigation checks
-Error messages & validation rules
-API response validation (high-level)
+# 🇬🇧 2. Scope of Testing
+In Scope
+✔ Login functionality
+✔ Product search, filtering, and display
+✔ Shopping cart operations (add/remove/update items)
+✔ Checkout redirection (mock flow only)
+✔ Basic UI & navigation
+✔ Validation & error messages
+✔ API response validation (high-level only)
 Out of Scope
-Real payment validation
-Integration with external payment providers
-Mobile application (native)
-Performance and load testing (covered in separate project)
+✘ Real payment processing
+✘ Integration with external payment services
+✘ Native mobile application
+✘ Performance & load testing (separate project)
+# 🇹🇷 2. Test Kapsamı
+Kapsam Dahilinde
+✔ Giriş (Login) fonksiyonu
+✔ Ürün arama, filtreleme ve ürün detay sayfaları
+✔ Alışveriş sepeti işlemleri (ekleme/kaldırma/miktar güncelleme)
+✔ Ödeme yönlendirmesi (mock akış)
+✔ Temel arayüz ve navigasyon
+✔ Doğrulama & hata mesajları
+✔ API yanıtlarının temel seviyede doğrulanması
+Kapsam Dışında
+✘ Gerçek ödeme işlemleri
+✘ Harici ödeme servisleri entegrasyonu
+✘ Native mobil uygulama
+✘ Performans ve yük testleri (başka projede ele alınacak)
 
-3. Test Approach
-Testing will be conducted manually using functional, smoke, and basic regression techniques.
-The approach includes:
+# 🇬🇧 3. Test Approach
+Testing will be performed manually and will include:
 Positive and negative test scenarios
 UI/UX validation
-Form validation
-Error message validation
-Test data-driven checks
-Retesting and regression cycles for fixed defects
-Bug tracking will be performed using Jira format (simulated).
+Form validation rules
+Error message verification
+Test data–based checks
+Retesting of fixed defects
+Regression testing
+Bug reporting in Jira-compatible format (simulated)
+# 🇹🇷 3. Test Yaklaşımı
+Testler manuel olarak gerçekleştirilecek ve şu adımları içerecektir:
+Pozitif ve negatif senaryolar
+UI/UX doğrulaması
+Form doğrulama kuralları
+Hata mesajlarının kontrolü
+Test verisine dayalı kontroller
+Düzeltilen hataların yeniden testi
+Regresyon testleri
+Jira uyumlu hata raporlama formatı (simülasyon)
 
-4. Test Types
+# 🇬🇧 4. Test Types
 Smoke Testing
 Functional Testing
 Regression Testing
 UI Testing
-Error & Validation Testing
+Validation & Error Handling Testing
+# 🇹🇷 4. Test Tipleri
+Smoke Testleri
+Fonksiyonel Testler
+Regresyon Testleri
+Arayüz (UI) Testleri
+Doğrulama & Hata Yönetimi Testleri
 
-5. Test Environment
+# 🇬🇧 5. Test Environment
 Browsers
 Chrome (latest)
 Firefox (latest)
@@ -48,53 +81,90 @@ Safari (MacOS)
 Edge (optional)
 Devices
 Desktop
-Mobile Web:
-iOS Safari
-Android Chrome
+Mobile web (iOS Safari, Android Chrome)
 Test Data
 Predefined user accounts
-Demo product data
+Sample product data
+# 🇹🇷 5. Test Ortamı
+Tarayıcılar
+Chrome (güncel)
+Firefox (güncel)
+Safari (MacOS)
+Edge (opsiyonel)
+Cihazlar
+Masaüstü
+Mobil web (iOS Safari, Android Chrome)
+Test Verileri
+Önceden tanımlanmış kullanıcı hesapları
+Demo ürün verileri
 
-6. Test Deliverables
+# 🇬🇧 6. Test Deliverables
 Test Plan (this document)
 Test Case Set (Login, Search, Add to Cart, Checkout)
 Smoke Test Checklist
 Bug Reports
 Test Summary Report (optional)
+# 🇹🇷 6. Test Teslimatları
+Test Planı (bu doküman)
+Test Senaryoları Seti (Login, Search, Add to Cart, Checkout)
+Smoke Test Kontrol Listesi
+Hata Raporları
+Test Özet Raporu (opsiyonel)
 
-7. Entry Criteria
+# 🇬🇧 7. Entry Criteria
 Testing may begin when:
-Required test environment is stable
-Test data is prepared
-Functional requirements are understood
+Test environment is stable
+Test data is ready
+Requirements are understood
 Core features are accessible
+# 🇹🇷 7. Giriş Kriterleri
+Testlere şu durumlarda başlanabilir:
+Test ortamı stabil olduğunda
+Test verileri hazır olduğunda
+Gereksinimler anlaşıldığında
+Temel fonksiyonlara erişilebilir olduğunda
 
-8. Exit Criteria
+# 🇬🇧 8. Exit Criteria
 Testing is complete when:
-All critical test cases are executed
-No open blocker or critical bugs remain
+All critical tests are executed
+No open blocker/critical defects remain
 Smoke suite fully passes
-All major regressions have been retested
+Major regressions have been retested
+# 🇹🇷 8. Çıkış Kriterleri
+Testler şu koşullarda tamamlanır:
+Kritik tüm testler çalıştırıldığında
+Açık bloklayıcı veya kritik hata kalmadığında
+Smoke suite tamamen geçtiğinde
+Büyük regresyonlar yeniden test edildiğinde
 
-9. Risks & Assumptions
+# 🇬🇧 9. Risks & Assumptions
 Risks
-Unstable test environment
-Missing or inaccurate requirements
+Unstable environment
+Missing or unclear requirements
 Delayed defect fixes
 Assumptions
-Requirements will remain consistent
-Test data will not change during the cycle
-Browsers/devices are available for testing
+Requirements remain stable
+Test data remains unchanged
+Required browsers/devices are available
+# 🇹🇷 9. Riskler & Varsayımlar
+Riskler
+Stabil olmayan test ortamı
+Eksik veya belirsiz gereksinimler
+Hata düzeltmelerinde gecikmeler
+Varsayımlar
+Gereksinimlerin sabit kalacağı
+Test verisinin süreç boyunca değişmeyeceği
+Gerekli tarayıcı ve cihazların erişilebilir olacağı
 
-10. Tools
-Chrome DevTools
-Jira (bug report format only)
-Markdown documentation in GitHub
-Postman (for verifying API behaviour at a high level)
-
-11. Schedule
+# 🇬🇧 10. Schedule
 Activity	Date
 Test planning	Week 1
 Test case design	Week 1
 Test execution	Week 2
 Defect reporting & retesting	Week 2
+# 🇹🇷 10. Zaman Çizelgesi
+Aktivite	Tarih
+Test planlama	1. Hafta
+Test senaryosu tasarımı	1. Hafta
+Test yürütme	2. Hafta
+Hata raporlama & yeniden test	2. Hafta
