@@ -10,6 +10,17 @@ The goal is to validate the quality and stability of core user workflows, includ
 Bu Test Planı, Trendyol web uygulaması için test kapsamını, yaklaşımını, test ortamını ve teslimatları tanımlar.
 Amaç; giriş, ürün arama, ürün detay görüntüleme ve alışveriş sepeti işlemleri gibi temel kullanıcı akışlarının kalite ve stabilitesini doğrulamaktır.
 
+✅ TEST PLAN — Trendyol Web Application
+Version: 1.0
+Author: Elif Taş
+Date: November 2025
+# 🇬🇧 1. Introduction
+This Test Plan outlines the testing scope, approach, environment, and deliverables for Trendyol’s web application.
+The goal is to validate the quality and stability of core user workflows, including login, product search, product display, and shopping cart operations.
+# 🇹🇷 1. Giriş
+Bu Test Planı, Trendyol web uygulaması için test kapsamını, yaklaşımını, test ortamını ve teslimatları tanımlar.
+Amaç; giriş, ürün arama, ürün detay görüntüleme ve alışveriş sepeti işlemleri gibi temel kullanıcı akışlarının kalite ve stabilitesini doğrulamaktır.
+
 # 🇬🇧 2. Scope of Testing
 In Scope
 ✔ Login functionality
